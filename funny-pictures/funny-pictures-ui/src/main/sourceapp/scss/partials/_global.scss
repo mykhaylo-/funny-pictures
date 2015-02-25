@@ -8,6 +8,9 @@ img {
     vertical-align: middle;
     border: 0;
 }
+.center-content {
+	margin: 0 auto;
+}
 .pagination {
     margin-top: 3em;
 }
@@ -51,8 +54,12 @@ md-input-container {
     }
 }
 .header {
+    .logo {
+        margin: 0 auto;
+        text-align: center;
+    }
     .lang {
-        color: rgb(187,222,251);
+        color: rgb(197,202,233);
         font-size: .7em;
         cursor: pointer;
         &.current {
@@ -63,4 +70,11 @@ md-input-container {
     .divider {
         margin: 0 5px;
     }
+}
+md-sidenav {
+    position: fixed;
+}
+.comments {
+    margin: 2.5em auto 0;
+    padding: 0 25px;
 }
